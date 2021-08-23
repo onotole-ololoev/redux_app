@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo {
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+
+}
