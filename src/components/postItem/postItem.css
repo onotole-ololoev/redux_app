@@ -1,0 +1,19 @@
+.postItem-box {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.postItem-text {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid lightslategrey;
+    width: 50%;
+}
+.postItem-img {
+    background-image: url('../images/post-img.jpg');
+    background-size: cover;
+    width: 500px;
+
+}

@@ -10,6 +10,7 @@ import {
 
 import Button from "./components/button";
 import Header from "./components/header";
+import PostList from "./components/postList";
 
 
 
@@ -41,7 +42,7 @@ export default function App() {
               <Header />
             </Route>
             <Route path="/">
-              <Home />
+              <PostList />
             </Route>
           </Switch>
         </div>
