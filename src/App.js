@@ -8,9 +8,10 @@ import {
   Link
 } from "react-router-dom";
 
-import Button from "./components/button";
 import Header from "./components/header";
 import PostList from "./components/postList";
+import Filter from "./components/filter";
+import Button from "./components/button";
 
 
 
@@ -27,7 +28,7 @@ export default function App() {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/users">Users</Link>
+                <Link to="/users">Contacts</Link>
               </li>
             </ul>
           </nav>
@@ -43,6 +44,10 @@ export default function App() {
             </Route>
             <Route path="/">
               <Header />
+              <div className='filter-box'>
+                <Filter />
+                <Button />
+              </div>
               <PostList />
             </Route>
           </Switch>
