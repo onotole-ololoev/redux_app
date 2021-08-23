@@ -7,7 +7,7 @@ const Button = () => {
         <button
             className='btn'
             onClick
-        >кнопка</button>
+        >Sing In</button>
     )
 }
 
