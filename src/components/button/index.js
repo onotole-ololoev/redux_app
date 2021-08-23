@@ -1,13 +1,22 @@
 import React from "react";
 import './button.css';
 
-const Button = () => {
+const Button = ({variant, label}) => {
+
+    let className='btn';
+    if (variant === 'sing') {
+        className = 'btn';
+    } else if (variant === 'out') {
+        className = 'btn btn--out'
+    } else if (variant === 'btn'){
+        className = 'btn'
+    }
 
     return (
         <button
-            className='btn'
+            className={className}
             onClick
-        >Sing In</button>
+        >{label}</button>
     )
 }
 

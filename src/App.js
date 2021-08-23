@@ -46,7 +46,7 @@ export default function App() {
               <Header />
               <div className='filter-box'>
                 <Filter />
-                <Button />
+                <Button variant='btn' label='Поиск'/>
               </div>
               <PostList />
             </Route>
