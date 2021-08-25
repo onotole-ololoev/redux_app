@@ -4,10 +4,3 @@
     align-items: center;
     margin-bottom: 20px;
 }
-.logo {
-    background-image: url('../images/logo.png');
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-
-}

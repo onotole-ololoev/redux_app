@@ -11,9 +11,3 @@
     border-top: 2px solid lightslategrey;
     width: 50%;
 }
-.postItem-img {
-    background-image: url('../images/post-img.jpg');
-    background-size: cover;
-    width: 500px;
-
-}
