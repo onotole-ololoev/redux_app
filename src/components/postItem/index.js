@@ -1,6 +1,6 @@
 import React from "react";
 import './postItem.css';
-
+import postImg from '../../images/post-img.jpg'
 
 const PostItem = () => {
 
@@ -11,7 +11,9 @@ const PostItem = () => {
                 <p>Семейные ценности – это обычаи и традиции, которые передаются из поколения в поколение. Это – чувства, благодаря которым семья становится крепкой. Это – всё то, что люди переживают вместе внутри дома – радость и горе, благополучие или проблемы и трудности...</p>
                 <div><span>дата / автор</span></div>
             </div>
-            <div className='postItem-img'></div>
+            <div>
+                <img src={postImg} alt='post-img' className='post-img'/>
+            </div>
         </div>
     )
 }
