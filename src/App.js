@@ -8,12 +8,16 @@ import {
   Link
 } from "react-router-dom";
 
+import appStore from "./store/appStore";
+
 import Header from "./components/header";
 import PostList from "./components/postList";
 import Filter from "./components/filter";
 import Button from "./components/button";
 
+const store = appStore();
 
+console.log(store.getState());
 
 export default function App() {
   return (
