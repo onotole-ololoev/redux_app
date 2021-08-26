@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './App.css';
 
 import {
@@ -14,49 +14,29 @@ import Header from "./components/header";
 import PostList from "./components/postList";
 import Filter from "./components/filter";
 import Button from "./components/button";
+import Modal from "./components/modal";
 
 const store = appStore();
 
 console.log(store.getState());
 
 export default function App() {
+
+    const [modalActive, setModalActive] = useState(false);
+
   return (
       <Router>
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/users">Contacts</Link>
-              </li>
-            </ul>
-          </nav>
-
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/about">
-
-            </Route>
-            <Route path="/users">
-
-            </Route>
-            <Route path="/">
-              <Header />
+          <Route path="/">
+              <Header active={modalActive} setActive={setModalActive}/>
               <div className='filter-box'>
                 <Filter />
                 <Button variant='btn' label='Поиск'/>
               </div>
               <PostList />
-            </Route>
-          </Switch>
-        </div>
+              <Modal active={modalActive} setActive={setModalActive}/>
+          </Route>
       </Router>
+
   );
 }
 

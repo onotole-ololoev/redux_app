@@ -3,14 +3,17 @@ import './header.css';
 import Button from "../button";
 import logo from '../../images/logo.png';
 
-const Header = () => {
+const Header = ({active, setActive}) => {
 
     return (
         <div className='header'>
             <div>
                 <img src={logo} alt='logo' className='logo'/>
             </div>
-            <Button variant='sing' label='Sing In'/>
+            <div>
+                <Button variant='sing' label='Sing In' active={active} setActive={setActive}/>
+                <Button variant='out' label='Log Out' />
+            </div>
         </div>
     )
 }
