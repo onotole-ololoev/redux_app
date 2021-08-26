@@ -21,7 +21,6 @@ const store = appStore();
 console.log(store.getState());
 
 export default function App() {
-
     const [modalActive, setModalActive] = useState(false);
 
   return (
