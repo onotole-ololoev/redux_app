@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="input component created">
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal close btn created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/appStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/appStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/appStore.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,8 @@
       <workItem from="1629905355154" duration="1698000" />
       <workItem from="1629909994311" duration="3726000" />
       <workItem from="1629959016279" duration="16217000" />
-      <workItem from="1629986794127" duration="4221000" />
+      <workItem from="1629986794127" duration="5370000" />
+      <workItem from="1630000474874" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629978161223</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modal close btn created">
+      <created>1629991512007</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629991512007</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +227,7 @@
     <MESSAGE value="store created" />
     <MESSAGE value="modal created" />
     <MESSAGE value="input component created" />
-    <option name="LAST_COMMIT_MESSAGE" value="input component created" />
+    <MESSAGE value="modal close btn created" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal close btn created" />
   </component>
 </project>
