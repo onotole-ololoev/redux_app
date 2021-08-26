@@ -3,15 +3,19 @@ import './button.css';
 
 const Button = ({variant, label, active, setActive}) => {
 
-    let className='btn';
-    let onclick;
-    if (variant === 'sing') {
+    let className='btn',
+        onclick,
+        type;
+
+    if (variant === 'signIn') {
         className = 'btn'
         onclick = () => setActive(true);
-    } else if (variant === 'out') {
-        className = 'btn btn--out'
-    } else if (variant === 'btn'){
-        className = 'btn'
+    } else if (variant === 'signUp') {
+        className = 'btn btn--Up'
+    } else if (variant === 'find'){
+        className = 'btn btn--find'
+    } else if (variant === 'submit'){
+        type = 'submit'
     }
 
 
@@ -19,6 +23,7 @@ const Button = ({variant, label, active, setActive}) => {
         <button
             className={className}
             onClick={onclick}
+            type={type}
         >{label}</button>
     )
 }

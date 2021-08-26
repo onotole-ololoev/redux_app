@@ -11,8 +11,8 @@ const Header = ({active, setActive}) => {
                 <img src={logo} alt='logo' className='logo'/>
             </div>
             <div>
-                <Button variant='sing' label='Sing In' active={active} setActive={setActive}/>
-                <Button variant='out' label='Log Out' />
+                <Button variant='signIn' label='Sign In' active={active} setActive={setActive}/>
+                <Button variant='signUp' label='Sign Up' />
             </div>
         </div>
     )

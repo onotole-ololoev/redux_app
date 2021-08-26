@@ -1,4 +1,5 @@
 .btn {
+    min-width: 100px;
     margin: 5px;
     font-weight: bold;
     font-size: 15px;
@@ -12,10 +13,17 @@
 .btn:hover {
     background: rgb(53, 167, 110);
 }
-.btn--out {
+.btn--Up {
     background: rgb(199, 64, 120);
     box-shadow: 0 -3px rgb(145, 45, 87) inset;
 }
-.btn--out:hover {
+.btn--Up:hover {
     background: rgb(145, 45, 87);
+}
+.btn--find {
+    background: rgb(100, 149, 237);
+    box-shadow: 0 -3px rgb(30, 144, 255) inset;
+}
+.btn--find:hover {
+    background: rgb(30, 144, 255);
 }

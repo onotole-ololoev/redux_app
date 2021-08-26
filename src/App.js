@@ -30,7 +30,7 @@ export default function App() {
               <Header active={modalActive} setActive={setModalActive}/>
               <div className='filter-box'>
                 <Filter />
-                <Button variant='btn' label='Поиск'/>
+                <Button variant='find' label='Find'/>
               </div>
               <PostList />
               <Modal active={modalActive} setActive={setModalActive}/>

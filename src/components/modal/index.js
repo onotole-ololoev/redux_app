@@ -1,12 +1,30 @@
 import React from "react";
 import './modal.css'
+import Button from "../button";
+import Input from "../input";
 
 const Modal = ({active, setActive}) => {
 
     return (
         <div className={active ? 'modal active' : 'modal'} onClick={() => setActive(false)}>
             <div className='modal--content' onClick={(e) => e.stopPropagation()}>
-                <p>nglkkb fkgj fgb klfg fkl fk bfgb flgbflbflgbfg</p>
+                <form className='modal--form'>
+                    <div className='modal--form_item'>
+                        <label>Login*</label>
+                        <Input variant='login' />
+                        <div className="error-message">Username is a required field.</div>
+                    </div>
+                    <div className='modal--form_item'>
+                        <label>Password*</label>
+                        <Input variant='password' />
+                        <div className="error-message">Password is a required field.</div>
+                    </div>
+                    <Button variant='submit' label='Enter'/>
+                </form>
+                <div className='modal--form_links'>
+                    <a href='#' className='modal--form_link'>Forgot password</a>
+                    <a href='#' className='modal--form_link'>Create an account</a>
+                </div>
             </div>
         </div>
     )
