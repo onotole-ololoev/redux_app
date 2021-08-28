@@ -1,5 +1,5 @@
 import React from "react";
-import {cx} from '../../../helpers/utility';
+import { classNames as cx } from '../../helpers/utility';
 import './button.css';
 
 
