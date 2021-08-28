@@ -1,32 +1,19 @@
 import React from "react";
+import {cx} from '../../../helpers/utility';
 import './button.css';
 
-const Button = ({variant, label, active, setActive}) => {
 
-    let className='btn',
-        onclick,
-        type;
+const Button = ({className, label, onClick, variant, ...props}) => {
 
-    if (variant === 'signIn') {
-        className = 'btn'
-        onclick = () => setActive(true);
-    } else if (variant === 'signUp') {
-        className = 'btn btn--Up'
-    } else if (variant === 'find'){
-        className = 'btn btn--find'
-    } else if (variant === 'submit'){
-        type = 'submit'
-    }
-
+const classNames = cx('btn', className, {
+    [`btn--${variant}`]: variant});
 
     return (
         <button
-            className={className}
-            onClick={onclick}
-            type={type}
+            className={classNames}
+            onClick={onClick}
+            {...props}
         >{label}</button>
     )
 }
-
-
 export default Button;

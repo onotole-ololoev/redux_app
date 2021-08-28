@@ -1,4 +1,4 @@
-export function classNames(...args) {
+export function cx(...args) {
   let classes = [];
   args.forEach((item) => {
     if (typeof item === 'string' && item) {

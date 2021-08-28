@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal close btn created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/utility.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/utility.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/appStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +103,9 @@
       <workItem from="1629959016279" duration="16217000" />
       <workItem from="1629986794127" duration="5370000" />
       <workItem from="1630000474874" duration="729000" />
+      <workItem from="1630156583992" duration="1401000" />
+      <workItem from="1630158014200" duration="1301000" />
+      <workItem from="1630159345492" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>

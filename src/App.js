@@ -16,18 +16,20 @@ import Modal from "./components/modal";
 
 
 export default function App() {
-    const [modalActive, setModalActive] = useState(false);
+    const [authModal, setAuthModal] = useState(false);
+
+    const authModalToggle = () => setAuthModal(!authModal);
 
   return (
       <Router>
           <Route path="/">
-              <Header active={modalActive} setActive={setModalActive}/>
+              <Header openAuthModal={authModalToggle}/>
               <div className='filter-box'>
                 <Filter />
                 <Button variant='find' label='Find'/>
               </div>
               <PostList />
-              <Modal active={modalActive} setActive={setModalActive}/>
+              <Modal active={authModal}/>
           </Route>
       </Router>
 

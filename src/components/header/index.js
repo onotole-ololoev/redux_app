@@ -3,7 +3,7 @@ import './header.css';
 import Button from "../button";
 import logo from '../../images/logo.png';
 
-const Header = ({active, setActive}) => {
+const Header = ({openAuthModal}) => {
 
     return (
         <div className='header'>
@@ -11,7 +11,7 @@ const Header = ({active, setActive}) => {
                 <img src={logo} alt='logo' className='logo'/>
             </div>
             <div>
-                <Button variant='signIn' label='Sign In' active={active} setActive={setActive}/>
+                <Button variant='signIn' label='Sign In' onClick={openAuthModal}/>
                 <Button variant='signUp' label='Sign Up' />
             </div>
         </div>

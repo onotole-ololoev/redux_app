@@ -1,20 +1,19 @@
 import React from "react";
 import './input.css';
 
-const Input = ({variant}) => {
+const Input = ({label, error, onChange, value, placeholder, ...props}) => {
 
-    let type,
-        placeholder;
-    if (variant === 'login') {
-        type = 'text';
-        placeholder = 'Enter login'
-    } else if (variant === 'password') {
-        type = 'password';
-        placeholder = 'Enter password'
-    }
 
     return (
-        <input className='input' type={type} placeholder={placeholder}/>
+
+        <div>
+            {label ? <label>{label}</label> : null}
+            <input className='input' placeholder={placeholder} onChange={onChange} value={value}/>
+            {error ? <div>{error}</div> : null}
+        </div>
+
+
+
     )
 };
 export default Input;

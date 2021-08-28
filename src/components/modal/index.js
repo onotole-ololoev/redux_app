@@ -10,11 +10,7 @@ const Modal = ({active, setActive}) => {
             <div className='modal--content' onClick={(e) => e.stopPropagation()}>
                 <form className='modal--form'>
                     <div className='close' onClick={() => setActive(false)}></div>
-                    <div className='modal--form_item'>
-                        <label>Login*</label>
-                        <Input variant='login' />
-                        <div className="error-message">Username is a required field.</div>
-                    </div>
+                    <Input label='Login' placeholder='Enter login'/>
                     <div className='modal--form_item'>
                         <label>Password*</label>
                         <Input variant='password' />
