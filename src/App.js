@@ -9,15 +9,14 @@ import {
 
 import Header from "./components/header";
 import PostList from "./components/postList";
-import Filter from "./components/filter";
 import Button from "./components/button";
 import Modal from "./components/modal";
+import Input from "./components/input";
 
 
 
 export default function App() {
     const [authModal, setAuthModal] = useState(false);
-
     const authModalToggle = () => setAuthModal(!authModal);
 
   return (
@@ -25,11 +24,11 @@ export default function App() {
           <Route path="/">
               <Header openAuthModal={authModalToggle}/>
               <div className='filter-box'>
-                <Filter />
+                <Input placeholder='Find...' variant='find' />
                 <Button variant='find' label='Find'/>
               </div>
               <PostList />
-              <Modal active={authModal}/>
+              <Modal authModal openAuthModal={authModalToggle}/>
           </Route>
       </Router>
 

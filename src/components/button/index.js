@@ -3,7 +3,7 @@ import { classNames as cx } from '../../helpers/utility';
 import './button.css';
 
 
-const Button = ({className, label, onClick, variant, ...props}) => {
+const Button = ({className, label, onClick, variant, type, ...props}) => {
 
 const classNames = cx('btn', className, {
     [`btn--${variant}`]: variant});
@@ -12,6 +12,7 @@ const classNames = cx('btn', className, {
         <button
             className={classNames}
             onClick={onClick}
+            type={type}
             {...props}
         >{label}</button>
     )

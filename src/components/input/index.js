@@ -1,18 +1,19 @@
 import React from "react";
 import './input.css';
+import {classNames as cx} from "../../helpers/utility";
 
-const Input = ({label, error, onChange, value, placeholder, ...props}) => {
+const Input = ({label, error, onChange, value, placeholder, type, className, variant, ...props}) => {
 
+    const classNames = cx('input', className, {
+        [`input--${variant}`]: variant});
 
     return (
 
-        <div>
+        <div className='input-box'>
             {label ? <label>{label}</label> : null}
-            <input className='input' placeholder={placeholder} onChange={onChange} value={value}/>
+            <input className={classNames} placeholder={placeholder} onChange={onChange} value={value} type={type}/>
             {error ? <div>{error}</div> : null}
         </div>
-
-
 
     )
 };

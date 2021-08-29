@@ -11,8 +11,8 @@ const Header = ({openAuthModal}) => {
                 <img src={logo} alt='logo' className='logo'/>
             </div>
             <div>
-                <Button variant='signIn' label='Sign In' onClick={openAuthModal}/>
-                <Button variant='signUp' label='Sign Up' />
+                <Button label='Sign In' onClick={openAuthModal}/>
+                <Button variant='up' label='Sign Up' />
             </div>
         </div>
     )

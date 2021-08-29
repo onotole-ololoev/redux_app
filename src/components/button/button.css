@@ -13,11 +13,11 @@
 .btn:hover {
     background: rgb(53, 167, 110);
 }
-.btn--Up {
+.btn--up {
     background: rgb(199, 64, 120);
     box-shadow: 0 -3px rgb(145, 45, 87) inset;
 }
-.btn--Up:hover {
+.btn--up:hover {
     background: rgb(145, 45, 87);
 }
 .btn--find {
