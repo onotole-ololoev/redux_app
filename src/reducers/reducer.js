@@ -2,7 +2,7 @@ const initialState = {
     user: "Onotole"
 }
 
-const reducer = (state = initialState, action) => {
+const userReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'GOOD':
             return {...state, user: state.user + '' + action.payload}
@@ -12,3 +12,5 @@ const reducer = (state = initialState, action) => {
             return state
     }
 }
+
+export {userReducer};

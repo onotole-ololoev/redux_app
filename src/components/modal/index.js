@@ -3,13 +3,13 @@ import './modal.css'
 import Button from "../button";
 import Input from "../input";
 
-const Modal = ({openAuthModal, authModal}) => {
+const Modal = ({openAuthModal, authModal, closeAuthModal}) => {
 
     return (
         <div className={authModal ? 'modal active' : 'modal'} onClick={openAuthModal}>
             <div className='modal--content' onClick={(e) => e.stopPropagation()}>
                 <form className='modal--form'>
-                    <div className='close' onClick={openAuthModal}></div>
+                    <div className='close' onClick={closeAuthModal}></div>
                     <Input label='Login*' placeholder='Enter login' variant='authModal'/>
                     <Input label='Password*' placeholder='Enter password' variant='authModal' type='password'/>
                     <Button type='submit' label='Enter'/>

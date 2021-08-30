@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {connect} from "react-redux";
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -15,9 +16,11 @@ import Input from "./components/input";
 
 
 
-export default function App() {
+function App(props) {
     const [authModal, setAuthModal] = useState(false);
     const authModalToggle = () => setAuthModal(!authModal);
+
+    console.log(props);
 
   return (
       <Router>
@@ -28,12 +31,21 @@ export default function App() {
                 <Button variant='find' label='Find'/>
               </div>
               <PostList />
-              <Modal authModal openAuthModal={authModalToggle}/>
+              <Modal authModal={authModal} closeAuthModal={authModalToggle}/>
           </Route>
       </Router>
 
   );
 }
+
+const mapStateToProps = (state) => { return state}
+const mapDispatchToProps = (dispatch) => {
+    return {
+
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 
 
