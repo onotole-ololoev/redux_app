@@ -28,3 +28,17 @@
 .btn--find:hover {
     background: rgb(30, 144, 255);
 }
+.btn--text {
+    border: none;
+    background-color: inherit;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: none;
+    color: dimgray;
+}
+.btn--text:hover {
+    background: none;
+    text-decoration: underline;
+}
