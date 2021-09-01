@@ -26,12 +26,14 @@ function App(props) {
       <Router>
           <Route path="/">
               <Header openAuthModal={authModalToggle}/>
-              <div className='filter-box'>
-                <Input placeholder='Find...' variant='find' />
-                <Button variant='find' label='Find'/>
+              <div className='wrapper'>
+                  <div className='filter-box'>
+                      <Input placeholder='Find...' variant='find' />
+                      <Button variant='find' label='Find'/>
+                  </div>
+                  <PostList />
+                  <Modal authModal={authModal} closeAuthModal={authModalToggle}/>
               </div>
-              <PostList />
-              <Modal authModal={authModal} closeAuthModal={authModalToggle}/>
           </Route>
       </Router>
 

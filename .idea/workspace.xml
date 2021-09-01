@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="css header added">
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="css fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/postList/postList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postList/postList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +111,9 @@
       <workItem from="1630164579016" duration="841000" />
       <workItem from="1630172036235" duration="2635000" />
       <workItem from="1630225746910" duration="5194000" />
-      <workItem from="1630306204651" duration="13524000" />
+      <workItem from="1630306204651" duration="14141000" />
+      <workItem from="1630413825763" duration="2353000" />
+      <workItem from="1630476961458" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -235,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630334543304</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="css fixed">
+      <created>1630338204213</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1630338204213</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +281,7 @@
     <MESSAGE value="mentor's fixies" />
     <MESSAGE value="css modal added" />
     <MESSAGE value="css header added" />
-    <option name="LAST_COMMIT_MESSAGE" value="css header added" />
+    <MESSAGE value="css fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="css fixed" />
   </component>
 </project>

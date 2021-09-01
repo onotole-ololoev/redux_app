@@ -1,4 +1,4 @@
-.postItem-box {
+.post-item {
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -6,10 +6,10 @@
     background: linear-gradient(aliceblue, white);
     border-top: 2px solid lightslategrey;
 }
-.postItem-text {
+.post-item__content {
     padding: 5px 10px 5px 10px;
     width: 50%;
 }
-.post-img {
+.post-item__image {
     width: 500px;
 }

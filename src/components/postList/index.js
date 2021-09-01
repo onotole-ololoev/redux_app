@@ -6,7 +6,7 @@ import PostItem from "../postItem";
 const PostList = () => {
 
     return (
-        <div className='postList'>
+        <div className='post-list'>
             <PostItem />
             <PostItem />
             <PostItem />
