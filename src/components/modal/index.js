@@ -1,21 +1,30 @@
-import React from "react";
+import React, {useState} from "react";
 import './modal.css'
-import Button from "../button";
-import TextButtonsModal from "./text-buttons";
-import InputModal from "./input-modal";
+import LoginForm from "./login-form";
+import RegistrationForm from "./registration-form";
 
 
-const Modal = ({openAuthModal, authModal, closeAuthModal}) => {
+const Modal = ({authModal, closeAuthModal}) => {
+
+    const [variant, setVariant] = useState('login');
+    const handleToggleVariant = (variant) => setVariant(variant);
+
+    const chooseModalVariant = (variant) => {
+        switch (variant) {
+            case 'login':
+                return <LoginForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
+            case 'registration':
+                return <RegistrationForm closeAuthModal={closeAuthModal}/>
+            default:
+                return <LoginForm closeAuthModal={closeAuthModal}/>
+        }
+    }
+
 
     return (
-        <div className={authModal ? 'modal active' : 'modal'} onClick={openAuthModal}>
+        <div className={authModal ? 'modal active' : 'modal'} onClick={closeAuthModal}>
             <div className='modal__content' onClick={(e) => e.stopPropagation()}>
-                <form className='modal__form'>
-                    <div className='btn__close' onClick={closeAuthModal}></div>
-                    <InputModal />
-                    <TextButtonsModal />
-                    <Button type='submit' label='Log In'/>
-                </form>
+                {chooseModalVariant(variant, handleToggleVariant)}
             </div>
         </div>
     )

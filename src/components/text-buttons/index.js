@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "../../button";
+import Button from "../button";
 
 
-const TextButtonsModal = () => {
+const TextButtonsModal = ({toggleForm}) => {
 
     return (
         <div className='text-buttons'>
             <Button type='text' variant='text' label='Forgot your password?' />
-            <Button type='text' variant='text' label='Create an account' />
+            <Button type='text' variant='text' label='Create an account' onClick={toggleForm}/>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "../../input";
+import Input from "../input";
 
-const InputModal = () => {
+const LoginInput = () => {
 
     return (
         <div>
@@ -12,4 +12,4 @@ const InputModal = () => {
     )
 };
 
-export default InputModal;
+export default LoginInput;
