@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal variants created">
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal variants fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/registration-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/registration-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-buttons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-buttons/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,8 @@
       <workItem from="1630306204651" duration="14141000" />
       <workItem from="1630413825763" duration="2353000" />
       <workItem from="1630476961458" duration="5853000" />
-      <workItem from="1630483059095" duration="2407000" />
+      <workItem from="1630483059095" duration="2866000" />
+      <workItem from="1630493648428" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630485040521</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="modal variants fixed">
+      <created>1630485536529</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1630485536529</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +322,7 @@
     <MESSAGE value="reducer refactored" />
     <MESSAGE value="modal components created" />
     <MESSAGE value="modal variants created" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal variants created" />
+    <MESSAGE value="modal variants fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal variants fixed" />
   </component>
 </project>
