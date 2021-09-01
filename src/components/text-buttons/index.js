@@ -7,7 +7,7 @@ const TextButtonsModal = ({toggleForm}) => {
     return (
         <div className='text-buttons'>
             <Button type='text' variant='text' label='Forgot your password?' />
-            <Button type='text' variant='text' label='Create an account' onClick={toggleForm('registration')}/>
+            <Button type='text' variant='text' label='Create an account' onClick={() => toggleForm('registration')}/>
         </div>
     )
 }

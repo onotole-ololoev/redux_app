@@ -32,7 +32,7 @@ function App(props) {
                       <Button variant='find' label='Find'/>
                   </div>
                   <PostList />
-                  <Modal authModal={authModal} closeAuthModal={authModalToggle}/>
+                  {authModal ? <Modal authModal={authModal} closeAuthModal={authModalToggle}/> : null}
               </div>
           </Route>
       </Router>
