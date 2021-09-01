@@ -6,7 +6,7 @@ import RegistrationForm from "./registration-form";
 
 const Modal = ({authModal, closeAuthModal}) => {
 
-    const [variant, setVariant] = useState('login');
+    const [variant, setVariant] = useState('registration');
     const handleToggleVariant = (variant) => setVariant(variant);
 
     const chooseModalVariant = (variant) => {
