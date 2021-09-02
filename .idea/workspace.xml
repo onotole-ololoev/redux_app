@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal toggle">
-      <change afterPath="$PROJECT_DIR$/src/components/modal/login-form/login-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modal/registration-form/registration-form.css" afterDir="false" />
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="new fixes modal component">
+      <change afterPath="$PROJECT_DIR$/src/components/modal/modal-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/modal-header/modal-header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal/login-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/login-form/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/modal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal/registration-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/registration-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text-buttons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-buttons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modal/registration-form/registration-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/registration-form/registration-form.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,8 @@
       <workItem from="1630483059095" duration="2866000" />
       <workItem from="1630493648428" duration="1257000" />
       <workItem from="1630499177305" duration="5123000" />
-      <workItem from="1630514704916" duration="593000" />
+      <workItem from="1630514704916" duration="670000" />
+      <workItem from="1630572389220" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -299,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630494306391</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="new fixes modal component">
+      <created>1630515988009</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1630515988009</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +346,7 @@
     <MESSAGE value="modal variants created" />
     <MESSAGE value="modal variants fixed" />
     <MESSAGE value="modal toggle" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal toggle" />
+    <MESSAGE value="new fixes modal component" />
+    <option name="LAST_COMMIT_MESSAGE" value="new fixes modal component" />
   </component>
 </project>
