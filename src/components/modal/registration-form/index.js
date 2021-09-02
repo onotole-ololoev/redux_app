@@ -4,7 +4,7 @@ import Input from "../../input";
 import './registration-form.css'
 
 
-const RegistrationForm = ({closeAuthModal}) => {
+const RegistrationForm = () => {
 
     return (
         <form className='modal-content__form'>
