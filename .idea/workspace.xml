@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal toggle fixed">
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal back btn created">
+      <change afterPath="$PROJECT_DIR$/src/components/modal/forgot-form/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/registration-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/registration-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/text-buttons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-buttons/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -119,7 +120,7 @@
       <workItem from="1630514704916" duration="670000" />
       <workItem from="1630572389220" duration="6322000" />
       <workItem from="1630661043704" duration="593000" />
-      <workItem from="1630769265137" duration="623000" />
+      <workItem from="1630769265137" duration="2003000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -317,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630580318436</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="modal back btn created">
+      <created>1630769932960</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1630769932960</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +368,7 @@
     <MESSAGE value="new fixes modal component" />
     <MESSAGE value="new component modal-header created" />
     <MESSAGE value="modal toggle fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal toggle fixed" />
+    <MESSAGE value="modal back btn created" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal back btn created" />
   </component>
 </project>

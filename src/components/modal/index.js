@@ -3,6 +3,7 @@ import './modal.css'
 import LoginForm from "./login-form";
 import RegistrationForm from "./registration-form";
 import ModalHeader from "./modal-header";
+import ForgotForm from "./forgot-form";
 
 const chooseModalVariant = (variant, closeAuthModal, handleToggleVariant) => {
     switch (variant) {
@@ -10,6 +11,8 @@ const chooseModalVariant = (variant, closeAuthModal, handleToggleVariant) => {
             return <LoginForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
         case 'REGISTRATION':
             return <RegistrationForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
+        case 'FORGOT':
+            return <ForgotForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
         default:
             return <LoginForm closeAuthModal={closeAuthModal}/>
     }
@@ -17,7 +20,8 @@ const chooseModalVariant = (variant, closeAuthModal, handleToggleVariant) => {
 
 const modalTitle = {
     'LOGIN': 'Login',
-    'REGISTRATION': 'Registration'
+    'REGISTRATION': 'Registration',
+    'FORGOT': 'Please, enter your e-mail'
 
 }
 
