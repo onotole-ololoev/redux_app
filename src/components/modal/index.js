@@ -9,7 +9,7 @@ const chooseModalVariant = (variant, closeAuthModal, handleToggleVariant) => {
         case 'LOGIN':
             return <LoginForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
         case 'REGISTRATION':
-            return <RegistrationForm closeAuthModal={closeAuthModal}/>
+            return <RegistrationForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
         default:
             return <LoginForm closeAuthModal={closeAuthModal}/>
     }
