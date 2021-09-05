@@ -2,10 +2,10 @@ import React, {useState} from "react";
 import {connect} from "react-redux";
 import './App.css';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link, Redirect
 } from "react-router-dom";
 
 import Header from "./components/header";
@@ -13,6 +13,7 @@ import PostList from "./components/postList";
 import Button from "./components/button";
 import Modal from "./components/modal";
 import Input from "./components/input";
+import Post from "./pages/post/post";
 
 
 
@@ -24,17 +25,23 @@ function App(props) {
 
   return (
       <Router>
-          <Route path="/">
-              <Header openAuthModal={authModalToggle}/>
-              <div className='wrapper'>
-                  <div className='filter-box'>
-                      <Input placeholder='Find...' variant='find' />
-                      <Button variant='find' label='Find'/>
+          <Header openAuthModal={authModalToggle}/>
+          <Switch>
+              <Route path="/">
+                  <div className='wrapper'>
+                      <div className='filter-box'>
+                          <Input placeholder='Find...' variant='find' />
+                          <Button variant='find' label='Find'/>
+                      </div>
+                      <PostList />
+                      {authModal ? <Modal authModal={authModal} closeAuthModal={authModalToggle}/> : null}
                   </div>
-                  <PostList />
-                  {authModal ? <Modal authModal={authModal} closeAuthModal={authModalToggle}/> : null}
-              </div>
-          </Route>
+              </Route>
+              <Route path="/post">
+                  <Post />
+              </Route>
+              <Redirect to="/404" />
+          </Switch>
       </Router>
 
   );
