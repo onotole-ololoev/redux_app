@@ -14,6 +14,7 @@ import Button from "./components/button";
 import Modal from "./components/modal";
 import Input from "./components/input";
 import Post from "./pages/post/post";
+import Error from "./pages/404/404";
 
 
 
@@ -39,6 +40,9 @@ function App(props) {
               </Route>
               <Route path="/post">
                   <Post />
+              </Route>
+              <Route path="/404">
+                  <Error />
               </Route>
               <Redirect to="/404" />
           </Switch>

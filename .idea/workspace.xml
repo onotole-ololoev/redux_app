@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="some pages created">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="some pages fixed">
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,7 @@
       <workItem from="1630572389220" duration="6322000" />
       <workItem from="1630661043704" duration="593000" />
       <workItem from="1630769265137" duration="3227000" />
-      <workItem from="1630823394674" duration="4138000" />
+      <workItem from="1630823394674" duration="4377000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -341,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630827169735</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="some pages fixed">
+      <created>1630828182762</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1630828182762</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +366,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header fixed" />
     <MESSAGE value="filter created" />
     <MESSAGE value="filter fixed" />
     <MESSAGE value="images added" />
@@ -385,6 +390,7 @@
     <MESSAGE value="modal back btn created" />
     <MESSAGE value="modal forgot created" />
     <MESSAGE value="some pages created" />
-    <option name="LAST_COMMIT_MESSAGE" value="some pages created" />
+    <MESSAGE value="some pages fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="some pages fixed" />
   </component>
 </project>
