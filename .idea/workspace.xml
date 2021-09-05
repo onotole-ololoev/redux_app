@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal back btn created">
-      <change afterPath="$PROJECT_DIR$/src/components/modal/forgot-form/index.js" afterDir="false" />
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="modal forgot created">
+      <change afterPath="$PROJECT_DIR$/src/pages/404/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post/components/article/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post/components/post-header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post/components/post-image/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/profile-edit/profile-edit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text-buttons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text-buttons/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +73,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\REACT study\redux_app\src\pages\profile-edit" />
+      <recent name="E:\Work\REACT study\redux_app\src\pages\post" />
+      <recent name="E:\Work\REACT study\redux_app\src\pages\404" />
       <recent name="E:\Work\REACT study\redux_app\src\components" />
     </key>
   </component>
@@ -120,7 +126,8 @@
       <workItem from="1630514704916" duration="670000" />
       <workItem from="1630572389220" duration="6322000" />
       <workItem from="1630661043704" duration="593000" />
-      <workItem from="1630769265137" duration="2003000" />
+      <workItem from="1630769265137" duration="3227000" />
+      <workItem from="1630823394674" duration="3117000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -325,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630769932960</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="modal forgot created">
+      <created>1630773628672</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1630773628672</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +358,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="header and button created" />
     <MESSAGE value="postList and postItem created" />
     <MESSAGE value="header fixed" />
     <MESSAGE value="filter created" />
@@ -369,6 +382,7 @@
     <MESSAGE value="new component modal-header created" />
     <MESSAGE value="modal toggle fixed" />
     <MESSAGE value="modal back btn created" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal back btn created" />
+    <MESSAGE value="modal forgot created" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal forgot created" />
   </component>
 </project>
