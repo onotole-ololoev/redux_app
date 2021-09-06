@@ -2,13 +2,14 @@ import React from "react";
 import './header.css';
 import Button from "../button";
 import logo from '../../images/logo.png';
+import {Link} from "react-router-dom";
 
 const Header = ({openAuthModal}) => {
 
     return (
         <div className='header'>
             <div>
-                <img src={logo} alt='logo' className='logo'/>
+                <Link to='/'><img src={logo} alt='logo' className='logo'/></Link>
             </div>
             <div>
                 <Button label='Sign In' onClick={openAuthModal}/>

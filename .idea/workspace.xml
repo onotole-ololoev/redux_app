@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="some pages fixed">
-      <change afterPath="$PROJECT_DIR$/src/pages/home/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="routes component created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/profile-edit/profile-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile-edit/profile-edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,7 @@
       <workItem from="1630769265137" duration="3227000" />
       <workItem from="1630823394674" duration="4991000" />
       <workItem from="1630836899286" duration="744000" />
-      <workItem from="1630913662029" duration="2280000" />
+      <workItem from="1630913662029" duration="3673000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -361,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630828407477</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="routes component created">
+      <created>1630927552655</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1630927552655</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +385,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="filter created" />
     <MESSAGE value="filter fixed" />
     <MESSAGE value="images added" />
     <MESSAGE value="images css changed" />
@@ -405,6 +409,7 @@
     <MESSAGE value="modal forgot created" />
     <MESSAGE value="some pages created" />
     <MESSAGE value="some pages fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="some pages fixed" />
+    <MESSAGE value="routes component created" />
+    <option name="LAST_COMMIT_MESSAGE" value="routes component created" />
   </component>
 </project>

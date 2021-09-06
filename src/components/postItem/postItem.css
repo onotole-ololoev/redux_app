@@ -13,3 +13,10 @@
 .post-item__image {
     width: 500px;
 }
+.link-box:active,
+.link-box:hover,
+.link-box
+{
+    text-decoration: none;
+    color: black;
+}
