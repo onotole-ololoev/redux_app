@@ -1,0 +1,10 @@
+.filter-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}

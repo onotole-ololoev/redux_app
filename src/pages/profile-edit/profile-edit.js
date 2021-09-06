@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "../../components/input";
+import Button from "../../components/button";
 
 
 
@@ -14,8 +15,9 @@ const ProfileEdit = () => {
             </div>
             <div>
                 <span>Change avatar:</span>
-                <input type="file" name="photoimg" id="photoimg" />
+                <input type="file" name="photo-img" id="photo-img" />
             </div>
+            <Button type='submit' label='Sent'/>
         </div>
     )
 };

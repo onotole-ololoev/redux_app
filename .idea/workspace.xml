@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="some pages fixed">
+      <change afterPath="$PROJECT_DIR$/src/pages/home/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile-edit/profile-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile-edit/profile-edit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -121,7 +126,9 @@
       <workItem from="1630572389220" duration="6322000" />
       <workItem from="1630661043704" duration="593000" />
       <workItem from="1630769265137" duration="3227000" />
-      <workItem from="1630823394674" duration="4377000" />
+      <workItem from="1630823394674" duration="4991000" />
+      <workItem from="1630836899286" duration="744000" />
+      <workItem from="1630913662029" duration="2280000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -347,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630828182762</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="some pages fixed">
+      <created>1630828407477</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1630828407477</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
