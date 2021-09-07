@@ -9,14 +9,14 @@ import Routes from "./routes";
 
 
 function App(props) {
-    const [authModal, setAuthModal] = useState(false);
-    const authModalToggle = () => setAuthModal(!authModal);
+    // const [authModal, setAuthModal] = useState(false);
+    // const authModalToggle = () => setAuthModal(!authModal);
 
     console.log(props);
 
   return (
       <Router>
-          <Header openAuthModal={authModalToggle}/>
+          {/*<Header openAuthModal={authModalToggle}/>*/}
           <Routes />
       </Router>
 

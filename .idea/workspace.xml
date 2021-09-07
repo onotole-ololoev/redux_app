@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="routes component created">
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="some links created">
+      <change afterPath="$PROJECT_DIR$/src/pages/post/post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/profile-edit/profileedit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/postItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/post/components/article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/post/components/article/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/post/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/post/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile-edit/profile-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile-edit/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +131,8 @@
       <workItem from="1630769265137" duration="3227000" />
       <workItem from="1630823394674" duration="4991000" />
       <workItem from="1630836899286" duration="744000" />
-      <workItem from="1630913662029" duration="3673000" />
+      <workItem from="1630913662029" duration="7287000" />
+      <workItem from="1631002490879" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -366,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630927552655</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="some links created">
+      <created>1630928820988</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1630928820988</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +398,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="filter fixed" />
     <MESSAGE value="images added" />
     <MESSAGE value="images css changed" />
     <MESSAGE value="modal created" />
@@ -410,6 +422,7 @@
     <MESSAGE value="some pages created" />
     <MESSAGE value="some pages fixed" />
     <MESSAGE value="routes component created" />
-    <option name="LAST_COMMIT_MESSAGE" value="routes component created" />
+    <MESSAGE value="some links created" />
+    <option name="LAST_COMMIT_MESSAGE" value="some links created" />
   </component>
 </project>
