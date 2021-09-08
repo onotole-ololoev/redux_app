@@ -12,6 +12,8 @@
 }
 .post-item__image {
     width: 500px;
+    float:left;
+    margin: 0px 15px 5px 0px;
 }
 .link-box:active,
 .link-box:hover,
