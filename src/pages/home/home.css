@@ -1,10 +1,13 @@
-.filter-box {
+.home-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
 }
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+}
+.home-header__search {
+    display: flex;
 }

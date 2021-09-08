@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="post page fixed">
-      <change afterPath="$PROJECT_DIR$/src/pages/post/components/article/article.css" afterDir="false" />
+    <list default="true" id="8f5efc09-8cdc-4479-8373-19746302927f" name="Default Changelist" comment="post page and header modal fixed">
+      <change afterPath="$PROJECT_DIR$/src/pages/add-post/add-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/add-post/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/postItem/postItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postItem/postItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/post/components/article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/post/components/article/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/post/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/post/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,8 @@
       <workItem from="1630836899286" duration="744000" />
       <workItem from="1630913662029" duration="7287000" />
       <workItem from="1631002490879" duration="2848000" />
-      <workItem from="1631090015556" duration="1229000" />
+      <workItem from="1631090015556" duration="1379000" />
+      <workItem from="1631110014694" duration="3405000" />
     </task>
     <task id="LOCAL-00001" summary="header and button created">
       <created>1629707354295</created>
@@ -386,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631004154877</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="post page and header modal fixed">
+      <created>1631091297461</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1631091297461</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +413,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="images css changed" />
     <MESSAGE value="modal created" />
     <MESSAGE value="input component created" />
     <MESSAGE value="modal close btn created" />
@@ -430,6 +437,7 @@
     <MESSAGE value="routes component created" />
     <MESSAGE value="some links created" />
     <MESSAGE value="post page fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="post page fixed" />
+    <MESSAGE value="post page and header modal fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="post page and header modal fixed" />
   </component>
 </project>

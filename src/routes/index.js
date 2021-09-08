@@ -4,6 +4,7 @@ import Error from "../pages/404/404";
 import Home from "../pages/home";
 import Post from "../pages/post";
 import ProfileEdit from "../pages/profile-edit";
+import AddPost from "../pages/add-post";
 
 const Routes = () => {
 
@@ -17,6 +18,9 @@ const Routes = () => {
             </Route>
             <Route path="/profileedit">
                 <ProfileEdit />
+            </Route>
+            <Route path="/addpost">
+                <AddPost />
             </Route>
             <Route path="/404">
                 <Error />
