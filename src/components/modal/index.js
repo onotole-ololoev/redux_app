@@ -5,10 +5,10 @@ import RegistrationForm from "./registration-form";
 import ModalHeader from "./modal-header";
 import ForgotForm from "./forgot-form";
 
-const chooseModalVariant = (variant, closeAuthModal, handleToggleVariant) => {
+const chooseModalVariant = (variant, closeAuthModal, handleToggleVariant, onFetchLogin) => {
     switch (variant) {
         case 'LOGIN':
-            return <LoginForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
+            return <LoginForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant} onFetchLogin={onFetchLogin}/>
         case 'REGISTRATION':
             return <RegistrationForm closeAuthModal={closeAuthModal} toggleForm={handleToggleVariant}/>
         case 'FORGOT':
@@ -25,7 +25,7 @@ const modalTitle = {
 
 }
 
-const Modal = ({authModal, closeAuthModal}) => {
+const Modal = ({authModal, closeAuthModal, onFetchLogin}) => {
 
     const [variant, setVariant] = useState('LOGIN');
     const handleToggleVariant = (variant) => setVariant(variant);
@@ -35,7 +35,7 @@ const Modal = ({authModal, closeAuthModal}) => {
             <div className='modal-wrapper'>
                 <ModalHeader closeAuthModal={closeAuthModal} title={modalTitle[variant]}/>
                 <div className='modal-content'>
-                    {chooseModalVariant(variant, closeAuthModal, handleToggleVariant)}
+                    {chooseModalVariant(variant, closeAuthModal, handleToggleVariant, onFetchLogin)}
                 </div>
             </div>
         </div>
